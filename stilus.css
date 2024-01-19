@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url();
+    margin: auto;
+}
+main{
+    width: 80%;
+    max-width: 852px;
+    margin: auto;
+}
+
+header{
+    background-image: url("kepek/zkar_header.jpg");
+    height: 400px;
+    margin: 3px;
+}
+
+nav {
+    background-image: url("kepek/bg-nav.png");
+    background-size: cover;
+    border: 1px solid white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+nav li {
+    display: flex; /* Hozzáadva: flex kijelölés */
+    align-items: center; /* Hozzáadva: középre igazítás függőlegesen */
+    font-family: 'Margine', cursive;
+    text-transform: uppercase;
+    border-right: 2px solid white;
+    height: 40px;
+   
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+nav a:hover{
+    color: white;
+}
+
+article{
+    border: 1px solid  #999658 ;
+    padding: 5px;
+    background-color: rgba(190,165,50,0.5);
+}
+
+article h1{
+    border-bottom: 2px dotted #999658 ;
+    text-transform: uppercase; 
+    font-family: 'Margarine',cursive; 
+    color: darkcyan;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#univerzalisnyelv{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color:#6d4f0f;
+}
+
+article h2{
+    
+    border-top: 2px dotted  #999658;
+    border-bottom: 2px dotted  #999658;
+    text-transform: uppercase; 
+    font-family: 'Margarine',cursive; 
+    color: darkcyan;
+    font-weight: bold;
+    padding: 5px;
+}
+
+article h2{
+    background-color: rgba(143, 119, 13, 0.5);
+}
+
+#mitereken{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.szoveg2{
+    background-color: rgba(107, 96, 44, 0.5);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color:#6d4f0f;
+    text-align: justify;
+}
+
+.sortorles{
+    clear: both;
+}
+
+#zenekarombemutatsa{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+span{
+    color: #6d4f0f;
+    font-weight: bold;
+}
+
